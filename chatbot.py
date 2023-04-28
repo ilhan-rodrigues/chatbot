@@ -16,7 +16,7 @@ intentrs = json.loads(open('intents.json').read())
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
-model = load_model('chatbotmodel.h5')
+model = load_model('chatbot_model.h5')
 
 def cleanUpSentence(sentence):
     sentenceWords = nltk.word_tokenize(sentence)
