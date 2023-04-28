@@ -1,0 +1,121 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello", 
+                "hi", 
+                "hey", 
+                "good day", 
+                "Greetings", 
+                "what's up?", 
+                "how is it going?"
+            ],
+            "responses": [
+                "Hello!", 
+                "Hey!", 
+                "What can I do for you?", 
+                "Hi there!", 
+                "How can I help you?", 
+                "Hello, how can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye", 
+                "see you later", 
+                "goodbye", 
+                "good bye", 
+                "see you soon", 
+                "take care", 
+                "bye bye", 
+                "see you later"
+            ],
+            "responses": [
+                "See you later!", 
+                "Have a nice day!", 
+                "Bye! Come back again soon.", 
+                "Have a nice day! Goodbye.", 
+                "Bye! Take care.", 
+                "Goodbye. See you soon."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you?", 
+                "what is your age?", 
+                "how old is Ilhan?", 
+                "what is Ilhan's age?", 
+                "what is your age?"
+            ],
+            "responses": [
+                "My owner Ilhan is 19 years old!", 
+                "19 years old!", 
+                "Ilhan is 19 years old!", 
+                "Ilhan is 19 years old!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name?", 
+                "what should I call you?", 
+                "what do you call yourself?", 
+                "what is your name?"
+            ],
+            "responses": [
+                "You can call me Lunatic", 
+                "I'm Lunatic", 
+                "I'm Lunatic, your virtual assistant", 
+                "I'm Lunatic, your virtual assistant"
+            ]
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "where can I buy your products?", 
+                "where can I buy your products", 
+                "where can I buy your products?", 
+                "where can I buy your products?"
+            ],
+            "responses": [
+                "You can buy our products from our website", 
+                "You can buy our products from our website", 
+                "You can buy our products from our website", 
+                "You can buy our products from our website"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "what are your hours?", 
+                "what are your hours", 
+                "what are your hours?", 
+                "what are your hours?"
+            ],
+            "responses": [
+                "We are open 7am-4pm Monday-Friday", 
+                "We are open 7am-4pm Monday-Friday", 
+                "We are open 7am-4pm Monday-Friday", 
+                "We are open 7am-4pm Monday-Friday"
+            ]
+        },
+        {
+            "tag":"stocks",
+            "patterns": [
+                "what stocks do you have?", 
+                "what stocks do you have", 
+                "what stocks do you have?", 
+                "what stocks do you have?"
+            ],
+            "responses": [
+                "We have a wide range of stocks", 
+                "We have a wide range of stocks", 
+                "We have a wide range of stocks", 
+                "We have a wide range of stocks"
+            ]
+        }
+    ]
+}
